@@ -46,9 +46,10 @@ h1 {
     margin: 50px 15px;
     padding: 15px;
     border-radius: 5px;
-    background: #eee ;
-    background:linear-gradient(180deg, rgba(238,238,238, 0.3),
-     rgba(238,238,238, 0.7), rgba(238,238,238, 0.7), rgba(238,238,238,.8)), url("../assets/patterns/double-bubble-outline.png");
+    background: #eee;
+    background: linear-gradient(180deg, rgba(238, 238, 238, 0.3),
+            rgba(238, 238, 238, 0.7), rgba(238, 238, 238, 0.7),
+             rgba(238, 238, 238, .8)), url("../assets/patterns/double-bubble-outline.png");
     color: #333;
 }
 
@@ -149,6 +150,7 @@ li {
 a {
     color: rgb(143, 93, 189);
 }
+
 a::after {
-  content: "→";
+    content: "→";
 }
